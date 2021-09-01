@@ -1,0 +1,152 @@
+.sidebar {
+  flex: 0.3;
+  display: flex;
+  position: sticky;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.sidebar__container {
+  width: 250px;
+}
+.sidebar__top {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.highlights {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.connections {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+}
+.connections:hover {
+  background-color: lightgray;
+}
+
+.highlight__blue {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+.connections > h3 {
+  text-align: left;
+  padding-left: 10px;
+}
+.connections_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0 10px;
+}
+.unhighlights {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.plans {
+  padding-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.plans__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.plans:hover {
+  background-color: lightgray;
+}
+
+.my_items {
+  width: 100%;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.my_items__container {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.my_items:hover {
+  background-color: lightgray;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sidebar__top > h3 {
+  font-size: 12px;
+  font-weight: normal;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.sidebar__top > h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.sidebar__top > img {
+  margin-bottom: -15px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.connections_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_items {
+  display: flex;
+}
+
+.sidebar__bottom {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 100%;
+  font-size: 12px;
+}
+
+.sidebar__bottom__top {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.sidebar__bottom__top > h3 {
+  color: #0a66c2;
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.sidebar__bottom__top > h3:hover {
+  text-decoration: underline;
+}
+
+.sidebar__bottom__bottom {
+  padding: 10px 0;
+  color: gray;
+  text-align: center;
+}

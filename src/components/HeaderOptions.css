@@ -1,0 +1,18 @@
+.headerOptions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+  color: gray;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.headerOptions:hover {
+  color: black;
+}
+
+.headerOptions > img {
+  width: 30px;
+}
